@@ -10,6 +10,7 @@ $(document).ready(function() {
         if (vowels[index] === sentence[letter]) {
           newSentence.push("-");
           letter++;
+          index = 0;
         }
       }
       newSentence.push(sentence[letter]);
